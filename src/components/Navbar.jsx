@@ -32,7 +32,7 @@ export default function Navbar(){
             </div>
         </div>
         {mobileMenuIsOpen && <div>
-            <div className="md:hidden">
+            <div className="md:hidden bg-slate-900/95 backdrop-blur-lg border-t border-slate-800 animate-in slide-in-from-top duration-300">
                 <a href="#features" className="text-gray-300 hover:text-300 text-sm lg:text-base">Features</a>
                 <a href="#pricing" className="text-gray-300 hover:text-300 text-sm lg:text-base">Pricing</a>
                 <a href="#testimonials" className="text-gray-300 hover:text-300 text-sm lg:text-base">Testimonials</a>
